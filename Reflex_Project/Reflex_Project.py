@@ -2,6 +2,6 @@ import reflex as rx
 from week01 import text_practice
 
 app = rx.App()
-app.add_page(text_practice.index,route = "/text")
+app.add_page(text_practice.index)
 
-app._compile()
+# control + c : Reflex stop
