@@ -2,7 +2,7 @@ import reflex as rx
 
 
 class State(rx.State) :
-    count = 0
+    count : int = 0
     
     def increase(self) :
         self.count += 1
